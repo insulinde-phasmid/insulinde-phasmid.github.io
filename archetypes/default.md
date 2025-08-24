@@ -1,6 +1,6 @@
 ---
 title: 博客标题
-date: {{ .Date | time.Format "2006-01-02" }}
+date: {{ .Date }}
 tags: []
 series: []
 featured: true
