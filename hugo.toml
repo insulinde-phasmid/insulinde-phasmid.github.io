@@ -1,4 +1,4 @@
-baseURL = 'https://insulinde-phasmid.github.io/'
+baseURL = 'https://insulinde-phasmid.github.io'
 languageCode = 'zh'
 title = '莲花去国一千年'
 theme = 'hugo-theme-ladder'
