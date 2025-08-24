@@ -9,9 +9,9 @@ defaultContentLanguage = "zh"
   author = "少微"
   authorDescription = "海尼森一般通过普通市民"
   info = "悠悠天地内，不死会相逢。"
-  avatarURL = "images/baize.png"
+  avatarURL = "images/shaowei.png"
   darkModeTheme = "data-dark-mode"
-  favicon = "images/baize.png"
+  favicon = "images/shaowei.png"
 
 [[menu.main]]
   name = "文章"
