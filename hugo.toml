@@ -1,0 +1,34 @@
+baseURL = 'https://insulinde-phasmid.github.io/'
+languageCode = 'zh'
+title = '莲花去国一千年'
+theme = 'hugo-theme-ladder'
+defaultContentLanguage = "zh"
+
+[params]
+  brand = "主页"
+  author = "少微"
+  authorDescription = "海尼森一般通过普通市民"
+  info = "悠悠天地内，不死会相逢。"
+  avatarURL = "images/baize.png"
+  darkModeTheme = "data-dark-mode"
+  favicon = "images/baize.png"
+
+[[menu.main]]
+  name = "文章"
+  url = "/blog/"
+  weight = 1
+
+[[menu.main]]
+  name = "归档"
+  url = "/archive/"
+  weight = 2
+
+[[menu.main]]
+  name = "联系"
+  url = "/contact/"
+  weight = 3
+
+[[menu.main]]
+  name = "访客"
+  url = "/xx/"
+  weight = 4
