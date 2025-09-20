@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>竹村五郎 on 八声甘州</title>
+    <link>http://localhost:1313/tags/%E7%AB%B9%E6%9D%91%E4%BA%94%E9%83%8E/</link>
+    <description>Recent content in 竹村五郎 on 八声甘州</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 20 Sep 2025 11:24:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E7%AB%B9%E6%9D%91%E4%BA%94%E9%83%8E/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>老狗</title>
+      <link>http://localhost:1313/posts/others/sixth/</link>
+      <pubDate>Sat, 20 Sep 2025 11:24:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/others/sixth/</guid>
+      <description>竹村五郎的一生。</description>
+    </item>
+  </channel>
+</rss>

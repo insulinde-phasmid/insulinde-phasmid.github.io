@@ -1,0 +1,39 @@
+@font-face {
+  font-family: "FangZhengWenSong";
+  src: url("/fonts/FZWSSK.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "FangZhengWenSong", "Times New Roman", serif;
+}
+
+
+.posts-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; /* 上下均匀分布 */
+  align-items: center;
+  height: 60vh;
+}
+
+.post-card {
+  display: block;
+  width: 280px;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  background: var(--entry);        /* 跟随主题 */
+  color: var(--primary);           /* 跟随主题文字色 */
+  border-radius: 0.75rem;
+  text-align: center;
+  font-size: 1.2rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.post-card:hover {
+  background: var(--tertiary);     /* 夜间/日间都会变 */
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0,0,0,0.12);
+}

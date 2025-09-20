@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>九州缥缈录 on 八声甘州</title>
+    <link>http://localhost:1313/tags/%E4%B9%9D%E5%B7%9E%E7%BC%A5%E7%BC%88%E5%BD%95/</link>
+    <description>Recent content in 九州缥缈录 on 八声甘州</description>
+    <generator>Hugo -- 0.148.2</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 20 Sep 2025 11:18:50 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E4%B9%9D%E5%B7%9E%E7%BC%A5%E7%BC%88%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>历史的终结与最后之人</title>
+      <link>http://localhost:1313/posts/others/forth/</link>
+      <pubDate>Sat, 20 Sep 2025 11:18:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/others/forth/</guid>
+      <description>陈年老坑</description>
+    </item>
+  </channel>
+</rss>

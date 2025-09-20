@@ -1,0 +1,98 @@
+baseURL: https://example.org/
+languageCode: zh-cn
+title: 八声甘州
+theme: ["PaperMod"]
+enableEmoji: true
+hasCJKLanguage: true
+buildDrafts: false
+buildFuture: false
+minify:
+  disableXML: true
+permalinks:
+  post: "/:title/"
+defaultContentLanguage: "zh"
+defaultContentLanguageInSubdir: false
+languages:
+  zh:
+    languageName: "简中"
+    weight: 1
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  section: ["HTML", "RSS"]
+  taxonomy: ["HTML", "RSS"]
+  term: ["HTML", "RSS"]
+menu:
+  main:
+    menu:
+  main:
+    - name: 主页
+      pre: <i class='fa fa-home'></i>   # 可选图标
+      weight: 1                        # 排序权重，越小越靠前
+      identifier: home               # 唯一标识
+      url: "/"   
+    - name: 文章
+      pre: <i class='fa fa-list'></i>
+      weight: 970
+      identifier: posts
+      url: /posts
+    - name: 归档
+      pre: <i class='fa fa-book'></i>
+      weight: 980
+      identifier: archives
+      url: /archives
+    - name: 友链
+      pre: <i class='fa fa-link'></i>
+      weight: 990
+      identifier: links
+      url: /links
+params:
+  customCSS:
+    - css/custom.css
+  dateFormat: 2006-01-02
+  summaryLength: 0
+  profileMode:
+    enabled: true
+    title: 少微
+    subtitle: 悠悠天地间，不死会相逢。
+    imageUrl: /images/shaowei.png
+    imageWidth: "150"
+    imageHeight: "150"
+  defaultTheme: "auto"
+  ShowCodeCopyButtons: true
+  ShowReadingTime: false
+  ShowPostNavLinks: true
+  ShowWordCounts: true
+  ShowLastMod: true
+  ShowToc: true
+  TocOpen: true
+  comments: true
+  label:
+    text: "八声甘州"
+    icon:
+    iconHeight: 35
+  socialIcons:
+      - name: "email"
+        url: "mailto:zzz735631@gmail.com"
+      - name: xiaohongshu
+        url: "https://www.xiaohongshu.com/user/profile/648206d1000000002a034d89"
+      - name: "rss"
+        url: "/index.xml"
+  assets:
+    favicon: "/images/DSCF1230.jpg"
+  cover:
+    hidden: false
+    hiddenInList: false
+    hiddenInSingle: true
+  fuseOpts:
+    keys: ["title", "permalink", "summary"]
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+taxonomies:
+   category: categories
+   tag: tags
+   series: series
