@@ -1,7 +1,7 @@
 ---
 date: '2024-12-23T20:11:18+08:00'
 draft: false
-title: '2024的倒數第二周'
+title: 'Weekly|2024的倒數第二周'
 tags: []
 series: [周记]
 featured: true
