@@ -2,7 +2,7 @@
 date: '2025-09-28T09:36:12+08:00'
 showToc: false
 draft: false
-title: '好想成为咖啡店主理人'
+title: '想成为咖啡店主理人'
 tags: []
 series: [周记]
 featured: true
