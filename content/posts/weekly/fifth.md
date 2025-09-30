@@ -2,7 +2,7 @@
 date: '2025-09-15T00:36:52+08:00'
 showToc: false
 draft: false
-title: 'Weekly(?)|月中小结'
+title: 'Weekly(?) | 月中小结'
 tags: []
 series: [周记]
 featured: true

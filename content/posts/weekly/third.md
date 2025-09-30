@@ -2,7 +2,7 @@
 date: '2025-05-24T00:27:08+08:00'
 showToc: false
 draft: false
-title: 'Weekly|你能奉献一首诗吗'
+title: 'Weekly | 你能奉献一首诗吗'
 tags: []
 series: []
 featured: true

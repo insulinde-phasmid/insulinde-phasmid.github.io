@@ -1,7 +1,7 @@
 ---
 date: '2024-12-30T00:24:32+08:00'
 draft: false
-title: 'Weekly|2024年的最后一周'
+title: 'Weekly | 2024年的最后一周'
 tags: []
 series: [周记]
 featured: true

@@ -2,7 +2,7 @@
 date: '2025-03-15T00:31:37+08:00'
 showToc: false
 draft: false
-title: 'Weekly|都忘却春风词笔'
+title: 'Weekly | 都忘却春风词笔'
 tags: []
 series: [周记]
 featured: true
