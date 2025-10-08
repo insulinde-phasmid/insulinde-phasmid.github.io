@@ -4,7 +4,7 @@ showToc: false
 draft: false
 title: 'Weekly | 你能奉献一首诗吗'
 tags: []
-series: []
+series: [周记]
 featured: true
 summary: 因为伟大的戏剧还在继续。
 ---
