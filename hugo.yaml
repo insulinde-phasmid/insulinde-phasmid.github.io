@@ -33,7 +33,7 @@ menu:
       weight: 1                        # 排序权重，越小越靠前
       identifier: home               # 唯一标识
       url: "/"   
-    - name: 文章
+    - name: 作品
       pre: <i class='fa fa-list'></i>
       weight: 970
       identifier: posts
@@ -55,7 +55,7 @@ params:
   summaryLength: 0
   profileMode:
     enabled: true
-    title: 少微
+    title: 微
     subtitle: 悠悠天地间，不死会相逢。
     imageUrl: /images/shaowei.png
     imageWidth: "150"
