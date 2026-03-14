@@ -13,27 +13,37 @@ body {
 .posts-grid {
   display: flex;
   flex-direction: column;
-  justify-content: space-around; /* 上下均匀分布 */
-  align-items: center;
-  height: 60vh;
+  justify-content: center;  /* 核心：让所有子项在容器纵轴上紧贴居中 */
+  align-items: center;      /* 核心：横向居中 */
+  
+  /* 调整容器高度 */
+  min-height: 50vh;         /* 给容器一个最小高度，占屏幕的一半，这样视觉上更平衡 */
+  margin: 0 auto;           /* 确保容器本身在页面水平居中 */
+  
+  /* 调整两个方块之间的距离 */
+  gap: 60px;                /* 你可以微调这个像素值，25px-40px 通常比较美观 */
 }
 
 .post-card {
   display: block;
-  width: 280px;
-  padding: 1rem;
-  margin: 0.5rem 0;
-  background: var(--entry);        /* 跟随主题 */
-  color: var(--primary);           /* 跟随主题文字色 */
+  width: 320px;             /* 稍微加宽一点（原280px），更显大气 */
+  max-width: 90%;           /* 适配手机屏幕 */
+  padding: 1.2rem;          /* 增加内边距，让方块看起来更丰满 */
+  
+  /* 保持你原本的样式 */
+  background: var(--entry);
+  color: var(--primary);
   border-radius: 0.75rem;
   text-align: center;
   font-size: 1.2rem;
   box-shadow: 0 2px 6px rgba(0,0,0,0.08);
   transition: 0.2s;
+  text-decoration: none;    /* 确保去掉链接下划线 */
 }
 
+/* 悬停效果保持 */
 .post-card:hover {
-  background: var(--tertiary);     /* 夜间/日间都会变 */
+  background: var(--tertiary);
   transform: translateY(-3px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.12);
 }

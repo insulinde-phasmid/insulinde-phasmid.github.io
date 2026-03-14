@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>八声甘州</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on 八声甘州</description>
+    <title>同人小说 on 八声甘州</title>
+    <link>http://localhost:1313/posts/works/</link>
+    <description>Recent content in 同人小说 on 八声甘州</description>
     <generator>Hugo -- 0.148.2</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 14 Mar 2026 22:49:16 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/works/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>古风随笔</title>
       <link>http://localhost:1313/posts/works/6/</link>
@@ -42,27 +42,6 @@
       <pubDate>Sat, 14 Mar 2026 22:24:46 +0800</pubDate>
       <guid>http://localhost:1313/posts/works/1/</guid>
       <description>《双城之战》杰斯x维克多，19世纪殖民地au</description>
-    </item>
-    <item>
-      <title>红弦俱乐部，巴迪欧和Deconstructeam</title>
-      <link>http://localhost:1313/posts/others/1/</link>
-      <pubDate>Sat, 20 Sep 2025 11:21:36 +0800</pubDate>
-      <guid>http://localhost:1313/posts/others/1/</guid>
-      <description>爱是最小单位的共产主义。</description>
-    </item>
-    <item>
-      <title>游戏评论-艾迪芬奇的记忆</title>
-      <link>http://localhost:1313/posts/others/2/</link>
-      <pubDate>Sat, 20 Sep 2025 11:06:18 +0800</pubDate>
-      <guid>http://localhost:1313/posts/others/2/</guid>
-      <description>首发小红书，浏览破万，点赞近千。</description>
-    </item>
-    <item>
-      <title>游戏评论-古剑奇谭一</title>
-      <link>http://localhost:1313/posts/others/3/</link>
-      <pubDate>Wed, 20 Aug 2025 14:36:20 +0800</pubDate>
-      <guid>http://localhost:1313/posts/others/3/</guid>
-      <description>琴心剑魄今何在？忆君清泪如铅水。</description>
     </item>
     <item>
       <title>今日午后有台风来袭</title>
