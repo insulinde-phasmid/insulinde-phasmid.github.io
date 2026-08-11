@@ -1,0 +1,12 @@
+/public/
+/resources/_gen/
+/resources/_cache/
+/.hugo_build.lock
+/.DS_Store
+/bin/
+/.obsidian/
+/templates/
+/*.command
+/*.canvas
+/themes/blowfish.local-backup/
+
