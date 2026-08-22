@@ -1,30 +1,19 @@
 [[main]]
-  name = "首页"
-  pageRef = "/"
-  weight = 10
-
-[[main]]
-  name = "文章"
-  pageRef = "posts"
+  name = "粥刊"
+  url = "/categories/周记/"
   weight = 20
 
 [[main]]
-  name = "分类"
-  pageRef = "categories"
+  name = "杂谈"
+  url = "/categories/杂谈/"
   weight = 30
-
-[[main]]
-  name = "标签"
-  pageRef = "tags"
-  weight = 40
 
 [[main]]
   name = "关于"
   pageRef = "about"
-  weight = 50
+  weight = 40
 
 [[footer]]
   name = "RSS"
   url = "/index.xml"
   weight = 10
-

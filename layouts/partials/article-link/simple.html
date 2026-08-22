@@ -1,0 +1,24 @@
+<article class="literary-post-row">
+  <h3 class="literary-post-title"><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  <p class="literary-post-description">{{ with .Description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 150 }}{{ end }}</p>
+
+  <time class="literary-post-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date | time.Format "2006年1月2日" }}</time>
+
+  {{ with .GetTerms "categories" }}
+    <div class="literary-categories">
+      {{ range . }}<a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>{{ end }}
+    </div>
+  {{ else }}
+    <div class="literary-categories"></div>
+  {{ end }}
+
+  {{ with .GetTerms "tags" }}
+    <div class="literary-tags">
+      {{ range . }}<a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}
+    </div>
+  {{ else }}
+    <div class="literary-tags"></div>
+  {{ end }}
+
+  <span class="literary-short-rule" aria-hidden="true"></span>
+</article>

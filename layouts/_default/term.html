@@ -1,0 +1,26 @@
+{{ define "main" }}
+  {{ .Scratch.Set "scope" "term" }}
+
+  <header class="mt-5">
+    <h2 class="literary-section-title mt-5 text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h2>
+    {{ with .Content }}
+      <div class="literary-term-intro">{{ . }}</div>
+    {{ end }}
+  </header>
+
+  {{ if gt (len .Pages) 0 }}
+    <section class="literary-term-posts space-y-10 w-full" aria-label="文章列表">
+      {{ range (.Paginate .Pages.ByDate.Reverse).Pages }}
+        {{ partial "article-link/simple.html" . }}
+      {{ end }}
+    </section>
+  {{ else }}
+    <section class="mt-10 prose dark:prose-invert">
+      <p><em>{{ i18n "term.no_articles" | emojify }}</em></p>
+    </section>
+  {{ end }}
+
+  {{ partial "pagination.html" . }}
+{{ end }}

@@ -1,0 +1,14 @@
+{{ define "main" }}
+  <article>
+    <header class="mt-5 literary-section-content">
+      <h2 class="literary-section-title mt-0 text-neutral-900 dark:text-neutral">
+        {{ .Title | emojify }}
+      </h2>
+    </header>
+    <section class="flex flex-col max-w-full mt-6 prose dark:prose-invert lg:flex-row">
+      <div class="min-w-0 min-h-0 literary-section-content">
+        {{ .Content }}
+      </div>
+    </section>
+  </article>
+{{ end }}

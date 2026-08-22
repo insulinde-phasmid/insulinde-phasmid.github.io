@@ -6,7 +6,7 @@ enableCodeCopy = true
 mainSections = ["posts"]
 
 [header]
-  layout = "fixed"
+  layout = "basic"
 
 [footer]
   showMenu = true
@@ -16,31 +16,30 @@ mainSections = ["posts"]
   showScrollToTop = true
 
 [homepage]
-  layout = "profile"
+  layout = "page"
   showRecent = true
-  showRecentItems = 6
+  showRecentItems = 10
   showMoreLink = true
   showMoreLinkDest = "/posts/"
 
 [article]
   showDate = true
-  showAuthor = true
-  showBreadcrumbs = true
+  showAuthor = false
+  showBreadcrumbs = false
   showHeadingAnchors = true
   showPagination = true
-  showReadingTime = true
+  showReadingTime = false
   showTableOfContents = true
-  showTaxonomies = true
-  showWordCount = true
-  sharingLinks = ["email", "telegram", "whatsapp"]
+  showTaxonomies = false
+  showWordCount = false
+  sharingLinks = []
 
 [list]
   showSummary = true
-  groupByYear = true
+  groupByYear = false
 
 [taxonomy]
   showTermCount = true
 
 [term]
-  groupByYear = true
-
+  groupByYear = false

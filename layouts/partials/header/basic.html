@@ -1,0 +1,10 @@
+<header class="literary-site-nav">
+  <div class="literary-site-nav-inner">
+    <a class="literary-site-title" href="{{ site.Home.RelPermalink }}">{{ site.Title }}</a>
+    <nav aria-label="主导航">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL | relLangURL }}"{{ if $.IsMenuCurrent "main" . }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{ end }}
+    </nav>
+  </div>
+</header>

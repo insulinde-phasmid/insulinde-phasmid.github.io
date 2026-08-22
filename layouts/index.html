@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="literary-home">
+    <section class="literary-banner" aria-label="博客横幅">
+      <img src="{{ "img/header.png" | relURL }}" alt="飞鸟掠过灰色天空" fetchpriority="high">
+    </section>
+
+    <header class="literary-title-block">
+      <h1>{{ site.Title }}</h1>
+      {{ with site.Params.description }}<p>{{ . }}</p>{{ end }}
+    </header>
+
+    <section class="literary-posts" aria-label="最新文章">
+      {{ $pages := where site.RegularPages "Section" "posts" }}
+      {{ range $pages.ByDate.Reverse }}
+        {{ partial "article-row.html" . }}
+      {{ end }}
+    </section>
+  </div>
+{{ end }}
